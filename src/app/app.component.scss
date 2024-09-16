@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%); /* Gradient background */
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+}
+
+.custom-card {
+  width: 300px; /* Adjust the card width */
+  background-color: #fae3b7; /* Light gray background color for the card */
+  color: #060606; /* Darker text color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+ion-card-header {
+  background-color: #fdbe3f; /* Custom header background color */
+  color: rgb(1, 1, 0); /* Custom text color in the header */
+  padding: 16px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  align-items: center;
+
+}
+
+ion-card-title, ion-card-subtitle {
+  color: rgb(7, 7, 7); /* Custom color for title and subtitle */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+ion-button {
+  display: block;
+  margin: 0 auto;
+  --background: #2d45ad; /* Custom color for the button */
+  --color: rgb(253, 253, 253); /* White text on the button */
+}
+
+/* Custom Accordion Header and Content Styles */
+.custom-accordion-header {
+  background-color: #fdbe3f; /* Custom background color for accordion header */
+  color: #060606; /* Custom text color */
+}
+
+.custom-accordion-content {
+  background-color: #f8e083; /* Custom background color for accordion content */
+  color: #000000; /* Custom text color for content */
+  border-left: 2px solid #000000; /* Adding a border for visual enhancement */
+}
+

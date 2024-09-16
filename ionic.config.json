@@ -1,0 +1,7 @@
+{
+  "name": "AET 3-2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
